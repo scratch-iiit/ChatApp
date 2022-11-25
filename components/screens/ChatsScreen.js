@@ -9,6 +9,7 @@ const ChatsScreen = () => {
 
             data={chats}
             renderItem={({ item }) => <ChatListItems chat={item} />}
+            style={{ backgroundColor: 'white' }}
         />
 
     )
